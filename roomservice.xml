@@ -4,6 +4,8 @@
   <remote name="DarkBlueEdg"
     fetch="https://github.com/DarkBlueEdg" />
 
+    <remove-project name="packages_apps_Updater" />
+
     <project name="android_device_sony_kirin" path="device/sony/kirin" remote="DarkBlueEdg" revision="r11.1" />
     <project name="android_device_sony_nile-common" path="device/sony/nile-common" remote="DarkBlueEdg" revision="r11.1" />
     <project name="android_kernel_sony_sdm660" path="kernel/sony/sdm660" remote="DarkBlueEdg" revision="r11.1" />
@@ -16,5 +18,7 @@
     <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="DarkBlueEdg" revision="r11.1" />
     
     <project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="DarkBlueEdg" revision="r11.1" />
+
+    <project name="android_packages_apps_Updater" path="packages/apps/Updater" remote="DarkBlueEdg" revision="r11.1" />
 
   </manifest>
