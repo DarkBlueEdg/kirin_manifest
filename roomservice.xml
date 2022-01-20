@@ -4,7 +4,7 @@
   <remote name="DarkBlueEdg"
     fetch="https://github.com/DarkBlueEdg" />
 
-    <remove-project name="packages_apps_Updater" />
+#    <remove-project name="packages_apps_Updater" />
 
     <project name="android_device_sony_kirin" path="device/sony/kirin" remote="DarkBlueEdg" revision="r11.1" />
     <project name="android_device_sony_nile-common" path="device/sony/nile-common" remote="DarkBlueEdg" revision="r11.1" />
