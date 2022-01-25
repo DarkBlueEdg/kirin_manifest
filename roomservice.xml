@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="DarkBlueEdg"
+    fetch="https://github.com/DarkBlueEdg" />
+
+  <remote name="LineageOS"
+    fetch="https://github.com/LineageOS" />
+
+  <remote name="TheMuppets"
+    fetch="https://github.com/TheMuppets" />
+
+  <remote name="AICP"
+    fetch="https://github.com/AICP" />
+  
+    <remove-project name="AICP/packages_apps_Updater" />
+
+    <project name="android_packages_apps_Updater" path="packages/apps/Updater" remote="DarkBlueEdg" revision="r11.1" />
+
+    <project name="android_device_twrp_kirin" path="device/twrp/kirin" remote="DarkBlueEdg" revision="r11.1" />
+
+
+    <project name="android_device_sony_kirin" path="device/sony/kirin" remote="LineageOS" revision="lineage-18.1" />
+    <project name="android_device_sony_nile-common" path="device/sony/nile-common" remote="LineageOS" revision="lineage-18.1" />
+    <project name="android_kernel_sony_sdm660" path="kernel/sony/sdm660" remote="LineageOS" revision="lineage-18.1" />
+    <project name="proprietary_vendor_sony" path="vendor/sony" remote="LineageOS" revision="lineage-18.1" />
+
+
+    <project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="LineageOS" revision="lineage-18.1" />
+    <project name="android_hardware_sony_simdetect" path="hardware/sony/simdetect" remote="LineageOS" revision="lineage-18.1" />
+    <project name="android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" remote="LineageOS" revision="lineage-18.1" />
+
+</manifest>
